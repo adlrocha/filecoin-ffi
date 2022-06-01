@@ -1922,7 +1922,7 @@ dependencies = [
 [[package]]
 name = "fvm"
 version = "1.0.0-rc.1"
-source = "git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
+source = "git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2#f357238c83ffde525b1852da4cca72fdcfcbb0fe"
 dependencies = [
  "ahash",
  "anyhow",
@@ -1935,10 +1935,10 @@ dependencies = [
  "derive_more",
  "filecoin-proofs-api",
  "fvm-wasm-instrument",
- "fvm_ipld_amt 0.4.1 (git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2)",
+ "fvm_ipld_amt 0.4.1 (git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2)",
  "fvm_ipld_blockstore",
  "fvm_ipld_encoding",
- "fvm_ipld_hamt 0.5.1 (git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2)",
+ "fvm_ipld_hamt 0.5.1 (git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2)",
  "fvm_shared",
  "lazy_static",
  "log",
@@ -1985,7 +1985,7 @@ dependencies = [
 [[package]]
 name = "fvm_ipld_amt"
 version = "0.4.1"
-source = "git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
+source = "git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2#f357238c83ffde525b1852da4cca72fdcfcbb0fe"
 dependencies = [
  "anyhow",
  "cid",
@@ -2013,7 +2013,7 @@ dependencies = [
 [[package]]
 name = "fvm_ipld_blockstore"
 version = "0.1.1"
-source = "git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
+source = "git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2#f357238c83ffde525b1852da4cca72fdcfcbb0fe"
 dependencies = [
  "anyhow",
  "cid",
@@ -2023,7 +2023,7 @@ dependencies = [
 [[package]]
 name = "fvm_ipld_car"
 version = "0.4.1"
-source = "git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
+source = "git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2#f357238c83ffde525b1852da4cca72fdcfcbb0fe"
 dependencies = [
  "cid",
  "futures",
@@ -2037,7 +2037,7 @@ dependencies = [
 [[package]]
 name = "fvm_ipld_encoding"
 version = "0.2.1"
-source = "git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
+source = "git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2#f357238c83ffde525b1852da4cca72fdcfcbb0fe"
 dependencies = [
  "anyhow",
  "cid",
@@ -2075,7 +2075,7 @@ dependencies = [
 [[package]]
 name = "fvm_ipld_hamt"
 version = "0.5.1"
-source = "git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
+source = "git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2#f357238c83ffde525b1852da4cca72fdcfcbb0fe"
 dependencies = [
  "anyhow",
  "byteorder 1.4.3",
@@ -2110,7 +2110,7 @@ dependencies = [
 [[package]]
 name = "fvm_shared"
 version = "0.7.0"
-source = "git+https://github.com/filecoin-project/ref-fvm?branch=experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
+source = "git+https://github.com/adlrocha/ref-fvm?branch=hc-experimental/fvm-m2#bc9060d8416f48d8d31a77015b92dc830c287205"
 dependencies = [
  "anyhow",
  "bimap",
